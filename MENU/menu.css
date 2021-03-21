@@ -1,0 +1,25 @@
+body{
+    background-color: teal;
+}
+ul{
+    padding: 0px;
+    list-style: none; /*como quiero que se muestre la lista*/
+  display: flex; /*etiqueta padre de las que queremos alinear*/
+  justify-content: center;
+}
+li{
+width: 150px;
+border: 1px solid red;
+text-align: center;
+margin: 0px 15px 0px 0px;
+padding: 10px;
+background-color:greenyellow;
+border-radius: 10px;
+cursor: pointer;  /*interactividad de cursor*/
+}
+/*pesudo clase --> definir el estilo de una clase*/
+li:hover /*puedo agregar lo que sea*/
+{
+    background-color: rgb(148, 250, 135);
+   
+}
